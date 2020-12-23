@@ -1,3 +1,7 @@
+If you haven't installed the Master package already, please refer to this link for more information on how to install it:
+
+[Eduapps-packages](https://github.com/KareemMohamed95/Eduapps-packages)
+
 * What is the Master package ?
 
 The Master package wraps all the packages we use in our shiny application.
