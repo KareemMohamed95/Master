@@ -76,8 +76,8 @@ ServerInit <- function(mjxMenuHTMLCSS = FALSE,
                        env = NULL)
 mjxMenuHTMLCSS -> TRUE if you want the MathJax renderer to HTML-CSS, FALSE if you want the MathJax renderer to PreviewHTML
 Authorization -> "TRUE" if you are running the application in Development mode or deploying to your shinyapps.io account, "FALSE" if you are deploying the application to westemit account
-observeOnlanguageBtn -> TRUE if you want the default observing of the LanguageButton , FALSE if have another observing logic that you want to make in the template
-Same observes are the same
+observeOnlanguageBtn -> TRUE if you want the default observing of the LanguageButton , FALSE if you have another observing logic that you want to make in the template
+the other observes are the same
 env -> must be the shiny server environment if you want any of the default observing to happen
 ```
 
