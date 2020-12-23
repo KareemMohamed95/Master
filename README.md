@@ -64,7 +64,9 @@ all the parameters have default values, however, you may want to change them acc
 ```R
 UIInit <- function(ResourcesURL = "https://www.eduapplications.org/edu-apps/",
                    showMenu = TRUE)
+
 ResourcesURL -> is the external link that points to the location of the CSS and Script files ,in very rare conditions, you might want to change this to your local file 
+
 showMenu -> TRUE if you want to show the MathJax menu, FALSE if you want to hide it
 ```
 
@@ -78,10 +80,14 @@ ServerInit <- function(mjxMenuHTMLCSS = FALSE,
                        observeOnnextBtnCommon = TRUE,
                        observeOnprevBtnCommon = TRUE,
                        env = NULL)
+
 mjxMenuHTMLCSS -> TRUE if you want the MathJax renderer to HTML-CSS, FALSE if you want the MathJax renderer to PreviewHTML
+
 Authorization -> "TRUE" if you are running the application in Development mode or deploying to your shinyapps.io account, "FALSE" if you are deploying the application to westemit account
+
 observeOnlanguageBtn -> TRUE if you want the default observing of the LanguageButton , FALSE if you have another observing logic that you want to make in the template
 the other observes are the same
+
 env -> must be the shiny server environment if you want any of the default observing to happen
 ```
 
